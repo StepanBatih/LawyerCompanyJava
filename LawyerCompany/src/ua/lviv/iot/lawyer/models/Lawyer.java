@@ -1,7 +1,5 @@
 package ua.lviv.iot.lawyer.models;
 
-//import java.util.List;
-//import ua.lviv.iot.lawyer.managers.LawyerManagerImpl;
 
 public abstract class Lawyer {
 	
@@ -60,15 +58,6 @@ public abstract class Lawyer {
 
 	public Object isProvidingServices(Lawyer law) {
 		return null;
-	}/*
-	public Object isProvidingServices(List<Consultation> services) {
-		return null;
-	}/
-
-	public Object isProvidingServices(Lawyer law) {
-		// TODO Auto-generated method stub
-		return null;
-	}*/
-
+	
 	
 }
